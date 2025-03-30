@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+.task-input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.add-task {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-list li .task-text {
+    flex-grow: 1;
+}
+
+.task-list li button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task-list li .complete {
+    background-color: #2196F3;
+    color: white;
+}
+
+.task-list li .edit {
+    background-color: #ff9800;
+    color: white;
+}
+
+.task-list li .delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.task-list li .date-time {
+    font-size: 0.8em;
+    margin-left: 10px;
+}
